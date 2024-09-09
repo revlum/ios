@@ -10,7 +10,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "RevlumOfferwallSDK", type: .dynamic,
+            name: "RevlumOfferwallSDK",
             targets: ["RevlumOfferwallSDK"]),
     ],
     targets: [
