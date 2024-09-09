@@ -10,14 +10,14 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "RevlumOfferwallSDK",
+            name: "RevlumOfferwallSDK", type: .dynamic,
             targets: ["RevlumOfferwallSDK"]),
     ],
     targets: [
         .binaryTarget(
             name: "RevlumOfferwallSDK",
             url:"https://github.com/revlum/ios/releases/download/v1.0.0/RevlumOfferwallSDK.xcframework.zip",
-            checksum: "522246bcb322b48114145b318dcf42a04acd725b901e0329f6fc958b1474fbee"
+            checksum: "780bb8ab8c3f08b433953371207e85857e6defa59b4beee3aa378da65cdd0989"
         ),
     ]
 )
