@@ -36,7 +36,7 @@ Use `NavigationLink` to present the OfferwallView:
 ```swift
 import RevlumOfferwallSDK
 
-NavigationLink(destination: RevlumOfferwallSdk.getOfferwallView()) {
+NavigationLink(destination: RevlumOfferwallSdk.shared.offerwallView) {
     Text("Open Offerwall")
 }
 ```
@@ -49,7 +49,7 @@ To display the OfferwallView using UIKit, push the `UIHostingController` with th
 import RevlumOfferwallSDK
 
 self.navigationController?.pushViewController(
-    UIHostingController(rootView: RevlumOfferwallSdk.getOfferwallView()), 
+    UIHostingController(rootView: RevlumOfferwallSdk.shared.offerwallView), 
     animated: true
 )
 ```
