@@ -17,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "RevlumOfferwallSDK",
             url: "https://github.com/revlum/ios/releases/download/v1.0.0/RevlumOfferwallSDK.xcframework.zip",
-            checksum: "e508f4ffebae3d5493dbfae8169f0ea9ede771bb335b17c40e443c737d36af15"
+            checksum: "ebca2016309eb8c458d60f2ba031940405d606917fbae416a446c1a6eda38fe9"
         )
     ]
 )
