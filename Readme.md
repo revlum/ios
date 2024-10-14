@@ -73,6 +73,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 ```
 
+By default, `OfferwallView` enables back and forward navigation gestures with `allowsBackForwardNavigationGestures = true`. However, these gestures won't work until you disable the native back button in the navigation bar.
+
+If you need to enable swiping between web pages in the WebView, just hide the native back button and implement your own custom back button for navigation (e.g., closing the `OfferwallView`).
+
 ## 4. Check for a reward
 
 To check for a reward, use the `checkReward` function. It requires a reward callback, which returns a reward value (0 if there is no reward) and a list of conversions, as well as an error callback.
